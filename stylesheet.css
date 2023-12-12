@@ -1,39 +1,33 @@
-#becreative,.hero{width:100%}#quickblurb,.container{margin-bottom:0}.about,.about h2,.blurb,.hero-text,.intro hr,about h5{color:azure}.about h6,about h5{text-transform:uppercase}.hero{background-image:url(Portfolio/DSC_0008.jpg);height:600px;background-size:cover;background-repeat:no-repeat;background-position:center center;max-height:1000px}.container{padding-top:50px;padding-bottom:50px}.about{text-align:center;padding-top:5%;padding-bottom:5%}.about h2{font-weight:900: text-transform: uppercase}about h5{padding:10px;display:inline-block;font-size:1.2rem}.intro hr{width:50%;border-color:azure}.about h6{margin-bottom:45px}.card{margin-top:0}.card img{width:100px;height:100px}.collapsible{color:#696969;text-align:left;background-color:#f5f5f5}.contact .col,.contact h5,.contact h6,.contact hr,.portfolio{color:azure}.contact h5,.contact h6,.portfolio h5,.portfolio h6{text-align:center;text-transform:uppercase}.portfolio h5{margin-bottom:15px}.portfolio hr{width:50%;color:azure;margin-bottom:45px}.portfolio img{width:32%}.contact .col{margin-bottom:24px}.contact h5{margin-bottom:15px}.contact hr{width:50%;margin-bottom:45px}.contact .contact-holder{padding-left:40px;text-align:left}.contact .contact-holder h6{margin-bottom:15px;text-align:left}.contact .contact-holder p{margin-bottom:30px}
-  @font-face {
-        font-family: 'Material Icons';
-        font-style: normal;
-        font-weight: 400;
-        src: url(MaterialIcons-Regular.eot); /* For IE6-8 */
-        src: local('Material Icons'),
-             local('MaterialIcons-Regular'),
-             url(https://rawgit.com/google/material-design-icons/master/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
-             url(https://rawgit.com/google/material-design-icons/master/iconfont/MaterialIcons-Regular.woff) format('woff'),
-             url(https://rawgit.com/google/material-design-icons/master/iconfont/MaterialIcons-Regular.ttf) format('truetype');
-      }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
 
-      .material-icons {
-        font-family: 'Material Icons';
-        font-weight: normal;
-        font-style: normal;
-        font-size: 24px;  /* Preferred icon size */
-        display: inline-block;
-        width: 1em;
-        height: 1em;
-        line-height: 1;
-        text-transform: none;
-        letter-spacing: normal;
-        word-wrap: normal;
-        white-space: nowrap;
-        direction: ltr;
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-        /* Support for all WebKit browsers. */
-        -webkit-font-smoothing: antialiased;
-        /* Support for Safari and Chrome. */
-        text-rendering: optimizeLegibility;
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
 
-        /* Support for Firefox. */
-        -moz-osx-font-smoothing: grayscale;
+p {
+    font-size: 1.2em;
+}
 
-        /* Support for IE. */
-        font-feature-settings: 'liga';
-      }
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
